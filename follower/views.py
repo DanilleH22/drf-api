@@ -20,7 +20,7 @@ class FollowList(generics.ListCreateAPIView):
 
 
 class FollowerDetail(generics.RetrieveDestroyAPIView):
-   """
+    """
     Retrieve a follower
     No Update view, as we either follow or unfollow users
     Destroy a follower, i.e. unfollow someone if owner
